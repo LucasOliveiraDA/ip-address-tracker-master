@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--container main-->
+  <div class="main">
+
+    <h1 class="title-main">IP Address Tracker</h1>
+
+    <!--container ip input search-->
+
+    <div class="area-input">
+      <input type="text" id="input-ip" placeholder="192.212.174.101">
+      <button id="button-ip"><img src="images/icon-arrow.svg" alt="icon arrown button search ip " class="icon-button-ip"></button>
+    </div>
+    <!--container ip infomation-->
+    <div class="ct-info-ip">
+      <div class="ip-info">
+        <p class="title-ip-info">IP ADDRESS</p>
+        <p class="desc-ip-info">192.212.174.101</p>
+      </div>
+      <hr class="line-div line-1">
+      <div class="location-info">
+        <p class="title-location-info">LOCATION</p>
+        <p class="desc-location-info"><span class="city">Brooklyn</span>, <span class="regiao">NY 10001</span> </p>
+      </div>
+      <hr class="line-div line-2">
+      <div class="timezone-info">
+        <p class="title-timezone-info">TIMEZONE</p>
+        <p class="desc-timezone-info">UTC -05:00</p>
+      </div>
+      <hr class="line-div line-3">
+      <div class="isp-info">
+        <p class="title-isp-info">ISP</p>
+        <p class="desc-isp-info">SpaceX Starlink</p>
+      </div>
+    </div>
+    <img src="https://maps.geoapify.com/v1/staticmap?style=osm-bright&width=600&height=400&center=lonlat:-122.304378,47.526022&zoom=13.5&scaleFactor=2&apiKey=7001a1f7b235484cbcebb3f42fe53402" alt="image map view" class="img-map">
+
+  </div>
+  
+
+
+  <script src="main.js"></script>
+</body>
+</html>
